@@ -5,20 +5,29 @@ import './Navbar.css'
 class Navbar extends Component{
     render(){
         return(
-            <nav class="navbar navbar-expand navbar-dark bg-dark">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand navbar-dark bg-dark">
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
 
                 <div className="container">
-                    <Link class="navbar-brand" to="/">CPS530 Project</Link>
-                    <div class="collapse navbar-collapse" id="navbarsExample02">
-                        <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <Link class="nav-link" to="/">Home <span class="sr-only">(current)</span></Link>
+                    <Link className="navbar-brand" to="/">CPS530 Project</Link>
+                    <div className="collapse navbar-collapse" id="navbarsExample02">
+                        <ul className="navbar-nav ml-auto">
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/about">Link</Link>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/install">Install</Link>
+                        </li>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/tutorial">Tutorial</Link>
+                        </li>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/conclusion">Conclusion</Link>
+                        </li>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/credits">Credits</Link>
                         </li>
                         </ul>
                     </div>
