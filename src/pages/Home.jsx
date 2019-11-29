@@ -84,6 +84,46 @@ class Home extends Component {
                         <img className="container-fluid" src={DjangoLoved}/>
                     </p>
                     <h4>Strengths and Weaknesses of Django</h4>
+                    <h5>Strengths</h5>
+                    <p>
+                        <dl>
+                            <dt>Fully Loaded</dt>
+                            <dd>
+                                It works in a way that includes dozens of extras to help with user authentication, site maps,
+                                content administration, RSS feeds and much more such things. These aspects help in carrying out
+                                the web development process completely
+                            </dd>
+                            <dt>Secure</dt>
+                            <dd>
+                            When you are doing it in Django, it is ensured that developers don’t commit any mistakes related to
+                            security. Some of the common mistakes include SQL injection, cross-site request forgery, clickjacking
+                            and cross-site scripting. To manage effectively usernames and passwords, the user authentication system
+                            is the key. 
+                            </dd>
+                            <dt>Scalable</dt>
+                            <dd>
+                            To meet the heaviest traffic demand, the benefits of Django framework can be seen. Therefore, the busiest 
+                            sites use this medium to quickly meet the traffic demands.
+                            </dd>
+                        </dl>
+                    </p>
+                    <h5>Weaknesses</h5>
+                    <p>
+                        <dl>
+                            <dt>Regex to specify its URL</dt>
+                            <dd>You can create simple and easy-to-read URLs. However, Django uses regex to specify its URL routing patterns 
+                                and that makes the code larger and creates complicated syntaxes. 
+                            </dd>
+                            <dt>Too monolithic</dt>
+                            <dd>Django has a certain set of files and pre-defined variables. These pre-defined variables has to be learned
+                                before create any project throught Django
+                            </dd>
+                            <dt>Only handles 1 request at a time</dt>
+                            <dd>WSGI-based servers cannot be utilized to develop real-time apps, as WSGI protocol is synchronous. WSGI
+                                server can only handle 1 request at a time
+                            </dd>
+                        </dl>
+                    </p>
                     <br/>
                     <br/>
                     
