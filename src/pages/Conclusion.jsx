@@ -22,7 +22,7 @@ class Conclusion extends Component{
                     <div className="hero-body">
                         <div className="container">
                             <h1 className="title">
-                                ReactJs
+                                ReactJS
                             </h1>
                             <img width={32} src={StarSolid} alt="star-solid"></img>
                             <img width={32} src={StarSolid} alt="star-solid"></img>
@@ -55,7 +55,7 @@ class Conclusion extends Component{
                             <img width={32} src={StarRegular} alt="star-regular"></img>
                             <h2 className="subtitle">
                                 Django was difficult to install and configure and it was difficult to even create a project. Had to change a lot
-                                of VSCODE setting to create an environment and run the project with Django
+                                of Visual Studio Code settings to create an environment and run the project with Django.
                             </h2>
                             <i class="fas fa-star"></i>
                         </div>
@@ -75,9 +75,9 @@ class Conclusion extends Component{
                             <img width={32} src={StarRegular} alt="star-regular"></img>
                             <img width={32} src={StarRegular} alt="star-regular"></img>
                             <h2 className="subtitle">
-                                Bulma was easy to configure and very easy to use. It was so also very interesting to learn
-                                because it actually helped changing the looks of our website. However, Bulma messes with 
-                                regular html expression which took quite some time to figure out an equivalent in Bulma's
+                                Bulma was easy to configure and use. It was so also interesting to learn
+                                because it actually helped change the look of our website. However, Bulma messes with 
+                                regular HTML expressions which took quite some time to figure out an equivalent in Bulma's
                                 syntax. Some of the regular HTML syntax was disabled and Bulma did not have an equivalent
                                 expression.
                             </h2>

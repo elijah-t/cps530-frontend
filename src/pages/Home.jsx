@@ -14,7 +14,7 @@ class Home extends Component {
             <Jumbotron title="Our Frameworks" subtitle="About our used frameworks"/>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"></link> 
 
-                <div className="container">
+                <div className="container content">
                     <br />
                     <h2>What is React?</h2>
                     <p>

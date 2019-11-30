@@ -18,25 +18,25 @@ class Credits extends Component{
             {/* 198 x 264 */}
             <Navbar />
             <Jumbotron title="Credits" subtitle="Meet the Creators"/>
-                <div className="container">
-                    <div className="column is-one-quarter">
+                <div className="container content">
+                    <div className="column">
                         <img src={ElijahPic}></img>
                         <p><strong>Elijah Tungul</strong>, front-end</p>
                     </div>
                     
-                    <div className="column is-one-quarter">
+                    <div className="column">
                         <img src={MiguelPic}></img>
                         <p><strong>Miguel Nobre</strong>, back-end</p>
                     </div>
                     
-                    <div className="column is-one-quarter">
+                    <div className="column">
                         <img src={LinhPic}></img>
                         <p><strong>Tran Quy Linh Nguyen</strong>, front-end</p>
                     </div>
                     
                     <div className="column is-full">
-                        <h2 className="title is-2">References:</h2>
-                        <h4 className="title is-4">React</h4>
+                        <h2>References:</h2>
+                        <h4>React</h4>
                         <ul>
                             <li><a href="https://reactjs.org/">ReactJS</a></li>
                             <li><a href="https://www.taniarascia.com/getting-started-with-react/">Getting Started with React - An Overview and Walkthrough Tutorial</a></li>
@@ -44,16 +44,15 @@ class Credits extends Component{
                             <li><a href="https://insights.stackoverflow.com/survey/2019">Stack Overflow Developer Survey 2019</a></li>
                         </ul>
                         <br />
-                        <br />
-                        <h4 className="title is-4">Django</h4>
+                        <h4>Django</h4>
                         <ul>
                             <li><a href="https://www.djangoproject.com/">Django</a></li>
                             <li><a href="https://www.djangoproject.com/start/">Getting Started with Django</a></li>
                             <li><a href="https://hackernoon.com/advantages-and-disadvantages-of-django-499b1e20a2c5">Advantanges and Disadvantages of Django</a></li>
                             <li><a href="https://insights.stackoverflow.com/survey/2019">Stack Overflow Developer Survey 2019</a></li>
-                            <li>.</li>
-                            <li>.</li>
                         </ul>
+                        <br />
+                        <br />
                     </div>
                 <Footer />
                 </div>
