@@ -40,8 +40,6 @@ class Credits extends Component{
                         <li><a href="https://scotch.io/starters/react/react-popularity-and-when-not-to-use-react">React Popularity and When Not to Use React</a></li>
                         <li><a href="https://insights.stackoverflow.com/survey/2019">Stack Overflow Developer Survey 2019</a></li>
                     </ul>
-                    <br />
-                    <br />
                     <h4>Django</h4>
                     <ul>
                         <li><a href="https://www.djangoproject.com/">Django</a></li>

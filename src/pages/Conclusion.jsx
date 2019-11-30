@@ -2,15 +2,17 @@ import React, { Component } from 'react'
 import Navbar from '../components/Navbar.js'
 import Footer from '../components/Footer.js'
 import Jumbotron from '../components/Jumbotron.js'
+
 import StarSolid from '../Images/star-solid.svg'
 import StarRegular from '../Images/star-regular.svg'
+
 class Conclusion extends Component{
     render(){
         return(
             <div>
             <head>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"></link>
-          </head>
+            </head>
             <Navbar />
             <Jumbotron title="Conclusion" subtitle="Our Framework Experience"/>
             <div className="container">
@@ -30,9 +32,22 @@ class Conclusion extends Component{
                         <h2 className="subtitle">
                             ReactJS took some time to get used to and understand. However it was very interesting
                             overall. It did exactly what it was expected to do. Though its structure is very different from what
-                            we have done is this course so far, it is easy to use once used to it. 
+                            we have done is this course so far, it is easy to use once used to it. -Linh
+
+
                         </h2>
-                        
+                        <img width={32} src={StarSolid} alt="star-solid"></img>
+                        <img width={32} src={StarSolid} alt="star-solid"></img>
+                        <img width={32} src={StarSolid} alt="star-solid"></img>
+                        <img width={32} src={StarSolid} alt="star-solid"></img>
+                        <img width={32} src={StarRegular} alt="star-regular"></img>
+
+                        <h2 className="subtitle">
+                        ReactJS was difficult at first (understanding how components worked, creating front-end elements) 
+                            but when everything clicked, it was intuitive and simple to use. Overall, learning
+                            ReactJS was a great experience for learning a new framework. - Elijah
+
+                        </h2>
                     </div>
                 </div>
 
