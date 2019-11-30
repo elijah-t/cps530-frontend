@@ -91,7 +91,7 @@ class Home extends Component {
                             <dd>
                                 It works in a way that includes dozens of extras to help with user authentication, site maps,
                                 content administration, RSS feeds and much more such things. These aspects help in carrying out
-                                the web development process completely
+                                the web development process completely.
                             </dd>
                             <dt>Secure</dt>
                             <dd>
@@ -110,17 +110,17 @@ class Home extends Component {
                     <h5>Weaknesses</h5>
                     <p>
                         <dl>
-                            <dt>Regex to specify its URL</dt>
+                            <dt>Regex Specification in URLs</dt>
                             <dd>You can create simple and easy-to-read URLs. However, Django uses regex to specify its URL routing patterns 
                                 and that makes the code larger and creates complicated syntaxes. 
                             </dd>
                             <dt>Too monolithic</dt>
                             <dd>Django has a certain set of files and pre-defined variables. These pre-defined variables has to be learned
-                                before create any project throught Django
+                                before create any project throught Django.
                             </dd>
                             <dt>Only handles 1 request at a time</dt>
                             <dd>WSGI-based servers cannot be utilized to develop real-time apps, as WSGI protocol is synchronous. WSGI
-                                server can only handle 1 request at a time
+                                server can only handle 1 request at a time.
                             </dd>
                         </dl>
                     </p>
