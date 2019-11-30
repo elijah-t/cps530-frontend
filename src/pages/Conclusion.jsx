@@ -67,7 +67,7 @@ class Conclusion extends Component{
                         <img width={32} src={StarRegular} alt="star-regular"></img>
                         <h2 className="subtitle">
                             Django was difficult to install and configure and it was difficult to even create a project. Had to change a lot
-                            of VSCODE setting to create an environment and run the project with Django
+                            of VSCODE setting to create an environment and run the project with Django.
                         </h2>
                         <i class="fas fa-star"></i>
                     </div>
@@ -88,7 +88,7 @@ class Conclusion extends Component{
                         <img width={32} src={StarSolid} alt="star-regular"></img>
                         <h2 className="subtitle">
                             Bulma was easy to configure and very easy to use. It was so also very interesting to learn
-                            because it actually helped changing the looks of our website.s
+                            because it actually helped changing the looks of our website.
                         </h2>
                     </div>
                 </div>
