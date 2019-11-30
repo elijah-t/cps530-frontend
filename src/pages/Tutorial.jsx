@@ -9,6 +9,8 @@ class Tutorial extends Component{
             <div>
             <Navbar />
             <Jumbotron title="Tutorial" subtitle="How to Create a Clean Page"/>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"></link> 
+
                 <div className="container">
                 
                 <Footer />

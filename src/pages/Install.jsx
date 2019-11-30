@@ -11,6 +11,8 @@ class Install extends Component{
             <div>
             <Navbar />
             <Jumbotron title="Installation" subtitle="Instructions"/>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"></link> 
+
                 <div className="container">
                 <h2>How to Install React</h2>
                 <h4>Option 1: CDN Links</h4>

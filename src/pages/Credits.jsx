@@ -13,45 +13,48 @@ class Credits extends Component{
     render(){
         return(
             <div>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"></link> 
+            
+            {/* 198 x 264 */}
             <Navbar />
             <Jumbotron title="Credits" subtitle="Meet the Creators"/>
                 <div className="container">
-                    <div className="column">
-                        <img className="scale" src={ElijahPic}></img>
+                    <div className="column is-one-quarter">
+                        <img src={ElijahPic}></img>
                         <p><strong>Elijah Tungul</strong>, front-end</p>
                     </div>
                     
-                    <div className="column">
-                        <img className="scale" src={MiguelPic}></img>
+                    <div className="column is-one-quarter">
+                        <img src={MiguelPic}></img>
                         <p><strong>Miguel Nobre</strong>, back-end</p>
                     </div>
                     
-                    <div className="column">
-                        <img className="scale" src={LinhPic}></img>
+                    <div className="column is-one-quarter">
+                        <img src={LinhPic}></img>
                         <p><strong>Tran Quy Linh Nguyen</strong>, front-end</p>
                     </div>
                     
-
-                    <h2>References:</h2>
-                    <h4>React</h4>
-                    <ul>
-                        <li><a href="https://reactjs.org/">ReactJS</a></li>
-                        <li><a href="https://www.taniarascia.com/getting-started-with-react/">Getting Started with React - An Overview and Walkthrough Tutorial</a></li>
-                        <li><a href="https://scotch.io/starters/react/react-popularity-and-when-not-to-use-react">React Popularity and When Not to Use React</a></li>
-                        <li><a href="https://insights.stackoverflow.com/survey/2019">Stack Overflow Developer Survey 2019</a></li>
-                    </ul>
-                    <br />
-                    <br />
-                    <h4>Django</h4>
-                    <ul>
-                        <li><a href="https://www.djangoproject.com/">Django</a></li>
-                        <li><a href="https://www.djangoproject.com/start/">Getting Started with Django</a></li>
-                        <li><a href="https://hackernoon.com/advantages-and-disadvantages-of-django-499b1e20a2c5">Advantanges and Disadvantages of Django</a></li>
-                        <li><a href="https://insights.stackoverflow.com/survey/2019">Stack Overflow Developer Survey 2019</a></li>
-                    </ul>
-                    <br />
-                    <br />
-                    <br />
+                    <div className="column is-full">
+                        <h2 className="title is-2">References:</h2>
+                        <h4 className="title is-4">React</h4>
+                        <ul>
+                            <li><a href="https://reactjs.org/">ReactJS</a></li>
+                            <li><a href="https://www.taniarascia.com/getting-started-with-react/">Getting Started with React - An Overview and Walkthrough Tutorial</a></li>
+                            <li><a href="https://scotch.io/starters/react/react-popularity-and-when-not-to-use-react">React Popularity and When Not to Use React</a></li>
+                            <li><a href="https://insights.stackoverflow.com/survey/2019">Stack Overflow Developer Survey 2019</a></li>
+                        </ul>
+                        <br />
+                        <br />
+                        <h4 className="title is-4">Django</h4>
+                        <ul>
+                            <li><a href="https://www.djangoproject.com/">Django</a></li>
+                            <li><a href="https://www.djangoproject.com/start/">Getting Started with Django</a></li>
+                            <li><a href="https://hackernoon.com/advantages-and-disadvantages-of-django-499b1e20a2c5">Advantanges and Disadvantages of Django</a></li>
+                            <li><a href="https://insights.stackoverflow.com/survey/2019">Stack Overflow Developer Survey 2019</a></li>
+                            <li>.</li>
+                            <li>.</li>
+                        </ul>
+                    </div>
                 <Footer />
                 </div>
             </div>
