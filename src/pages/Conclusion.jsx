@@ -2,12 +2,15 @@ import React, { Component } from 'react'
 import Navbar from '../components/Navbar.js'
 import Footer from '../components/Footer.js'
 import Jumbotron from '../components/Jumbotron.js'
+
 import StarSolid from '../Images/star-solid.svg'
 import StarRegular from '../Images/star-regular.svg'
+
 class Conclusion extends Component{
     render(){
         return(
             <div>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"></link>
             <Navbar />
             <Jumbotron title="Conclusion" subtitle="Our Framework Experience"/>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"></link> 
@@ -69,11 +72,14 @@ class Conclusion extends Component{
                             <img width={32} src={StarSolid} alt="star-solid"></img>
                             <img width={32} src={StarSolid} alt="star-solid"></img>
                             <img width={32} src={StarSolid} alt="star-solid"></img>
-                            <img width={32} src={StarSolid} alt="star-regular"></img>
-                            <img width={32} src={StarSolid} alt="star-regular"></img>
+                            <img width={32} src={StarRegular} alt="star-regular"></img>
+                            <img width={32} src={StarRegular} alt="star-regular"></img>
                             <h2 className="subtitle">
                                 Bulma was easy to configure and very easy to use. It was so also very interesting to learn
-                                because it actually helped changing the looks of our website.s
+                                because it actually helped changing the looks of our website. However, Bulma messes with 
+                                regular html expression which took quite some time to figure out an equivalent in Bulma's
+                                syntax. Some of the regular HTML syntax was disabled and Bulma did not have an equivalent
+                                expression.
                             </h2>
                         </div>
                     </div>

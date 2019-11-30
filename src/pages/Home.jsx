@@ -126,6 +126,7 @@ class Home extends Component {
                             </dd>
                         </dl>
                     </p>
+                    <p>.</p>
                     <br/>
                     <br/>
                     
