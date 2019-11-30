@@ -42,6 +42,16 @@ class Credits extends Component{
                     </ul>
                     <br />
                     <br />
+                    <h4>Django</h4>
+                    <ul>
+                        <li><a href="https://www.djangoproject.com/">Django</a></li>
+                        <li><a href="https://www.djangoproject.com/start/">Getting Started with Django</a></li>
+                        <li><a href="https://hackernoon.com/advantages-and-disadvantages-of-django-499b1e20a2c5">Advantanges and Disadvantages of Django</a></li>
+                        <li><a href="https://insights.stackoverflow.com/survey/2019">Stack Overflow Developer Survey 2019</a></li>
+                    </ul>
+                    <br />
+                    <br />
+                    <br />
                 <Footer />
                 </div>
             </div>
