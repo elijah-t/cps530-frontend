@@ -15,7 +15,6 @@ class Home extends Component {
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"></link> 
 
                 <div className="container content">
-                    <br />
                     <h2>What is React?</h2>
                     <p>
                         React is a JavaScript library created by Facebook for 
