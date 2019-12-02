@@ -1,0 +1,10 @@
+img.scale{
+    width:90%;
+    height:90%;  
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
