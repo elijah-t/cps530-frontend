@@ -8,7 +8,7 @@ import Install from './pages/Install.jsx'
 import Tutorial from './pages/Tutorial.jsx'
 import Conclusion from './pages/Conclusion.jsx'
 import Credits from './pages/Credits.jsx'
-
+import Todo from './pages/Todo.jsx'
 class App extends Component {
   render(){
     return(
@@ -19,6 +19,7 @@ class App extends Component {
           <Route path="/tutorial" component={Tutorial} />
           <Route path="/conclusion" component={Conclusion} />
           <Route path="/credits" component={Credits} />
+          <Route path="/todo" component={Todo} />
         </div>
       </Router>
     );

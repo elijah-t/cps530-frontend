@@ -15,7 +15,6 @@ class Credits extends Component{
             <div>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"></link> 
             
-            {/* 198 x 264 */}
             <Navbar />
             <Jumbotron title="Credits" subtitle="Meet the Creators"/>
                 <div className="container content">

@@ -29,6 +29,9 @@ class Navbar extends Component{
                         <li className="nav-item active">
                             <Link className="nav-link" to="/credits">Credits</Link>
                         </li>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/todo">Todo</Link>
+                        </li>
                         </ul>
                     </div>
                 </div>
