@@ -50,7 +50,7 @@ class Conclusion extends Component{
                             </h1>
                             <img width={32} src={StarSolid} alt="star-solid"></img>
                             <img width={32} src={StarSolid} alt="star-solid"></img>
-                            <img width={32} src={StarRegular} alt="star-solid"></img>
+                            <img width={32} src={StarSolid} alt="star-solid"></img>
                             <img width={32} src={StarRegular} alt="star-regular"></img>
                             <img width={32} src={StarRegular} alt="star-regular"></img>
                             <h2 className="subtitle">
