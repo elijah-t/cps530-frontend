@@ -27,7 +27,7 @@ class Conclusion extends Component{
                             <img width={32} src={StarSolid} alt="star-solid"></img>
                             <img width={32} src={StarSolid} alt="star-solid"></img>
                             <img width={32} src={StarSolid} alt="star-solid"></img>
-                            <img width={32} src={StarRegular} alt="star-regular"></img>
+                            <img width={32} src={StarSolid} alt="star-regular"></img>
                             <img width={32} src={StarRegular} alt="star-regular"></img>
 
                             <h2 className="subtitle">
